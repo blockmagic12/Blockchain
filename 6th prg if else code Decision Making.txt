@@ -1,0 +1,13 @@
+pragma solidity ^0.5.0;
+contract SolidityTest{
+function getResult(uint x)public view returns (string memory){
+if (x>10)
+{
+    return "value is greater than 10";
+}
+else
+{
+    return "value is less than 10";
+}
+}
+}

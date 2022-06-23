@@ -1,0 +1,12 @@
+pragma solidity ^0.5.0;
+contract SolidityTest{
+function getResult(uint x)public view returns(uint){
+uint i;
+uint f=1;
+for(i=1;i<=x;i++)
+{
+    f=f*i;
+}    
+return f;
+}
+}
